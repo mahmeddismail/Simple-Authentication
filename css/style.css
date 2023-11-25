@@ -1,0 +1,41 @@
+body {
+    /* background: linear-gradient() url(../images/rostyslav-savchyn-OG9Ll1uZEPo-unsplash.jpg); */
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/rostyslav-savchyn-OG9Ll1uZEPo-unsplash.jpg);
+
+    background-size: cover ;
+    
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.sec {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+
+}
+
+h1 {
+    color: #17a2b8;
+}
+
+input,
+textarea {
+    background-color: transparent !important;
+    color: #fff !important;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: rgb(182, 182, 182) !important;
+}
+
+input:focus,
+textarea:focus {
+    box-shadow: 0 0 0 0 transparent !important;
+}
+
+a{
+    text-decoration: none;
+}
+
+#welcome{
+    color: #17a2b8;
+}
