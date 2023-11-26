@@ -23,15 +23,15 @@ function SignUp() {
                 password: inpPasswordSignUp.value,
             }
 
-            // if (EmailExists() == false && userContainer.length != 0) {
-            //     validEmailExists();
-            // }
-            // else {
+             if (EmailExists() == false && userContainer.length != 0) {
+               validEmailExists();
+             }
+             else {
                 userContainer.push(users)
                 localStorage.setItem("users", JSON.stringify(userContainer))
                 successSignUp();
                 openCompiler();
-            // }
+             }
         }
         else {
             return false;
